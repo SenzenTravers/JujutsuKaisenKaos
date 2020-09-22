@@ -231,7 +231,7 @@ class Room:
             mahvex = f"Mahito fought with {Room.roommate(self, mahito)} and was rude enough to keep talking about Itadori Yuji while they did! At least, he was polite enough to offer excuses when {Room.roommate(self, mahito)} expressed their frustration.\nHe still didn't stop, though."
             mahnerv = f"Mahito got on {Room.roommate(self, mahito)}'s nerves, probably on purpose."
             mahnerv2 = f"Mahito got on {Room.roommate(self, mahito)}'s nerves without even trying."
-            mahflirt = f"Mahito may have flirted {Room.roommate(self, mahito)}. Unless he was just being an innocent unnerving creep. Or both."
+            mahflirt = f"Mahito may have flirted with {Room.roommate(self, mahito)}, unless he was just being an innocent creep. Or maybe he's innocently flirty in a creepy way? So many possibilities!"
             mahsex = f"Mahito slept with {Room.roommate(self, mahito)}, which went as surprisingly as sex can go with a sociopathic shapeshifter. It may have felt... good? Room.roommate{(self, mahito)} is waiting to be able to form complete sentences again before they pass judgement on that one."
             mahally = [mahfriend, mahnerv, mahnerv2, mahfrbully, mahmonopoly, mahsex, mahflirt]
             mahenemy = [mahenth, mahnerv, mahnerv2, mahvex, mahflirt]
