@@ -287,17 +287,8 @@ class Kaos(tk.Tk):
         sroom15 = Slistbox(self)
         sroom15.bind('<Double-1>', lieu15)
         sroom15.grid(column = 5, row = 6)
-## CHARACTER SELECTION
 
-
-                                 
-
-## ABOUT
-
-
-## RESULTS
-
-### RANDOM
+ ### RANDOM
         listeslieu = [sroom1, sroom2, sroom3, sroom4, sroom5, sroom6, sroom7, sroom8, sroom9, sroom10, sroom11, sroom12, sroom13, sroom14, sroom15]
 
 if __name__ == "__main__":
