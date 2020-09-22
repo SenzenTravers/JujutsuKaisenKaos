@@ -19,7 +19,9 @@ class Kaos(tk.Tk):
         def reset():
             global sdf
             global persos
-            sdf = persos
+            sdf.clear()
+            for char in persos:
+                sdf.append(char)
             for room in rooms:
                 room.contenance.clear()
             for liste in listeslieu:
